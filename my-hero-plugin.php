@@ -136,7 +136,7 @@ add_action('woocommerce_before_single_product', function () {
   $video_url    = esc_url(get_option('hero_video_url'));
   $main_heading = wp_kses_post(get_option('hero_heading'));
   $button_text  = esc_html(get_option('hero_button_text'));
-  $testimonial_heading = wp_kses_post(get_option('hero_testimonial_heading'));
+  $testimonial_heading = wp_kses_post(get_option('testimonial_heading'));
   $images       = explode("\n", get_option('hero_slider_images'));
 
 ?>
